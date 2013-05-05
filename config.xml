@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.neehoy.neehoyclient"
+        versionCode="10" 
+        version   = "1.0.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Neehoy</name>
+
+    <description>
+         
+    </description>
+
+    <author href="https://neehoy.com" email="neehoy@gmail.com">
+        Neehoy Limited
+    </author>
+        <pre
+    <preference name="phonegap-version" value="2.7.0" />
+    <preference name="orientation" value="portrait" />
+     <preference name="webviewbounce" value="false" />
+    <preference name="prerendered-icon" value="true" />
+     <preference name="exit-on-suspend" value="true" />
+        <preference name="android-minSdkVersion" value="8" />
+        <preference name="auto-hide-splash-screen"    value="true" />
+        <access origin="*" />
+        <!--
+        <access origin="https://api.neehoy.com" subdomains="true" />
+        <access origin="https://api.neehoy.com" subdomains="true" />
+        <access origin="http://neehoy.com" subdomains="true" />
+                <access origin="http://neehoy.co.uk/terms-of-use"/>
+                        <access origin="http://neehoy.co.uk/privacy-policy"/>-->
+        <gap:plugin name="GAPlugin" />
+        <gap:plugin name="GenericPush" />
+         <gap:plugin name="FacebookConnect">
+            <param name="APP_ID" value="105581079582083" />
+ </gap:plugin>
+<feature name="http://api.phonegap.com/1.0/camera"/>
+<feature name="http://api.phonegap.com/1.0/geolocation"/>
+<feature name="http://api.phonegap.com/1.0/file"/>
+<feature name="http://api.phonegap.com/1.0/notification"/>
+<feature name="http://api.phonegap.com/1.0/media"/>
+<feature name="http://api.phonegap.com/1.0/network"/>       
+</widget>
